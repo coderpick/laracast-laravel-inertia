@@ -7,12 +7,13 @@ Route::get('/', function () {
     return Inertia::render('Home');
 });
 Route::get('/users', function () {
-    sleep(1);
-
     return Inertia::render('User');
 });
 Route::get('/setting', function () {
-    sleep(1);
+    return Inertia::render('Setting');
+});
 
+Route::post('/logout', function () {
+    dd('logining the user out');
     return Inertia::render('Setting');
 });

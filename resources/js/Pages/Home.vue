@@ -1,13 +1,8 @@
 <template>
-    <div>
-        <h1 class="bg-green-100 text-green-800 p-4">Home</h1>
-        <Nav/>
-   
+    <div class="prose  prose-slate">
+        <h1 class="text-2xl">Home</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ipsam nisi possimus quaerat unde! Ducimus harum ipsum molestias nulla praesentium, quis quo, ratione repudiandae rerum suscipit tempora tenetur ut veritatis?</p>
     </div>
+
 </template>
-<script>
-    import Nav  from "../Shared/Nav.vue";
-export default {  
-    components: { Nav }
-}
-</script>
+
